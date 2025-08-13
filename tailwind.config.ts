@@ -28,6 +28,10 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+				medical: {
+					primary: 'hsl(var(--medical-primary))',
+					'primary-dark': 'hsl(var(--medical-primary-dark))'
+				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
@@ -67,6 +71,16 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'medical-gradient': 'var(--medical-gradient)'
+			},
+			boxShadow: {
+				'medical-card': 'var(--medical-card-shadow)',
+				'medical-hover': 'var(--medical-hover-shadow)'
+			},
+			transitionTimingFunction: {
+				'medical': 'cubic-bezier(0.4, 0, 0.2, 1)'
 			},
 			keyframes: {
 				'accordion-down': {
